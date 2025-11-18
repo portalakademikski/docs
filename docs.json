@@ -1,48 +1,95 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Portal V4",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#f63a4c",
+    "light": "#f63a4c",
+    "dark": "#f63a4c"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Panduan",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Pengenalan",
             "pages": [
               "index",
               "quickstart",
-              "development"
+              "profile",
+              "exit-portal"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Fitur Utama",
+            "expanded": true,
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              {
+                "group": "Informasi Akademik",
+                "icon" : "chart-line",
+                "pages": [
+                  "main-feature/academic-info",
+                  "main-feature/questionnaire-result"
+                ]
+              },
+              {
+                "group": "Perkuliahan",
+                "icon":"landmark",
+                "pages": [
+                  "main-feature/course-offerings",
+                  "main-feature/study-plan-card"
+                ]
+              },
+              {
+                "group": "Kehadiran",
+                "icon":"calendar-clock",
+                "pages": [
+                  "main-feature/online-presence"
+                ]
+              },
+              {
+                "group": "Bimbingan Akademik",
+                "icon":"file-spreadsheet",
+                "pages": [
+                  "main-feature/guidance-history"
+                ]
+              },
+              {
+                "group": "Tugas Akhir",
+                "icon":"presentation",
+                "pages": [
+                  "main-feature/thesis-registration"
+                ]
+              },
+              {
+                "group": "Kampus Merdeka",
+                "icon":"briefcase",
+                "pages": [
+                  "main-feature/mbkm-info",
+                  "main-feature/mbkm-registration",
+                  "main-feature/mbkm-announcement"
+                ]
+              },
+              {
+                "group": "Pembayaran",
+                "icon":"wallet",
+                "pages": [
+                  "main-feature/invoice"
+                ]
+              },
+              {
+                "group": "Virtual Class",
+                "icon":"cloud",
+                "pages": [
+                  "main-feature/vc-course-material",
+                  "main-feature/vc-announcement",
+                  "main-feature/vc-task",
+                  "main-feature/vc-exam",
+                  "main-feature/vc-online-discuss"
+                ]
+              }
             ]
           }
         ]
@@ -71,13 +118,13 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
+          "anchor": "ecampuz.com",
+          "href": "https://ecampuz.com",
           "icon": "book-open-cover"
         },
         {
           "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "href": "https://blog.ecampuz.com",
           "icon": "newspaper"
         }
       ]
@@ -91,32 +138,31 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:info@ecampuz.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Aplikasi",
+      "href": "https://staging-et82.ecampuz.com/develop-4/eakademikportal/"
     }
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "instagram": "https://www.instagram.com/ecampuzofficial/",
+      "linkedin": "https://id.linkedin.com/company/ecampuzofficial"
     }
   }
 }
