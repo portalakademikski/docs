@@ -39,7 +39,12 @@
                 "icon":"landmark",
                 "pages": [
                   "main-feature/course-offerings",
-                  "main-feature/study-plan-card"
+                  "main-feature/study-plan-card",
+                  "main-feature/print-exam-cards",
+                  "main-feature/study-result-card",
+                  "main-feature/transcripts",
+                  "main-feature/skpi",
+                  "main-feature/leave-submission"
                 ]
               },
               {
