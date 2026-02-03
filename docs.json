@@ -9,9 +9,23 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "ecampuz.com",
+          "icon": "book-open-cover",
+          "href": "https://ecampuz.com"
+        },
+        {
+          "anchor": "Blog",
+          "icon": "newspaper",
+          "href": "https://blog.ecampuz.com"
+        }
+      ]
+    },
     "tabs": [
       {
-        "tab": "Panduan",
+        "tab": "Panduan Portal Akademik Mahasiswa",
         "groups": [
           {
             "group": "Pengenalan",
@@ -28,7 +42,7 @@
             "pages": [
               {
                 "group": "Informasi Akademik",
-                "icon" : "chart-line",
+                "icon": "chart-line",
                 "pages": [
                   "main-feature/academic-info",
                   "main-feature/questionnaire-result"
@@ -36,7 +50,7 @@
               },
               {
                 "group": "Perkuliahan",
-                "icon":"landmark",
+                "icon": "landmark",
                 "pages": [
                   "main-feature/course-offerings",
                   "main-feature/study-plan-card",
@@ -49,28 +63,28 @@
               },
               {
                 "group": "Kehadiran",
-                "icon":"calendar-clock",
+                "icon": "calendar-clock",
                 "pages": [
                   "main-feature/online-presence"
                 ]
               },
               {
                 "group": "Bimbingan Akademik",
-                "icon":"file-spreadsheet",
+                "icon": "file-spreadsheet",
                 "pages": [
                   "main-feature/guidance-history"
                 ]
               },
               {
                 "group": "Tugas Akhir",
-                "icon":"presentation",
+                "icon": "presentation",
                 "pages": [
                   "main-feature/thesis-registration"
                 ]
               },
               {
                 "group": "Kampus Merdeka",
-                "icon":"briefcase",
+                "icon": "briefcase",
                 "pages": [
                   "main-feature/mbkm-info",
                   "main-feature/mbkm-registration",
@@ -79,14 +93,14 @@
               },
               {
                 "group": "Pembayaran",
-                "icon":"wallet",
+                "icon": "wallet",
                 "pages": [
                   "main-feature/invoice"
                 ]
               },
               {
                 "group": "Virtual Class",
-                "icon":"cloud",
+                "icon": "cloud",
                 "pages": [
                   "main-feature/vc-course-material",
                   "main-feature/vc-announcement",
@@ -119,21 +133,7 @@
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "ecampuz.com",
-          "href": "https://ecampuz.com",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://blog.ecampuz.com",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
